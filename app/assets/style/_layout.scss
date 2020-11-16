@@ -39,9 +39,11 @@ a {
                 transition: .2s;
             }
             &.active {
-                color: #2A8356;
                 &::after {
                     width: 4px;
+                }
+                a {
+                    color: #2A8356;
                 }
             }
             a {
