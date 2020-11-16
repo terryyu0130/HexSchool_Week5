@@ -85,10 +85,10 @@ a {
       -webkit-transition: .2s;
       -o-transition: .2s;
       transition: .2s; }
-    .list .menu li.active {
+    .list .menu li.active::after {
+      width: 4px; }
+    .list .menu li.active a {
       color: #2A8356; }
-      .list .menu li.active::after {
-        width: 4px; }
     .list .menu li a {
       display: -webkit-box;
       display: -ms-flexbox;
