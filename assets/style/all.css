@@ -302,15 +302,25 @@ a {
       .emir .card .button a {
         font: normal normal bold 16px/24px Lato;
         padding: 8px 25px;
-        border-radius: 2px; }
+        border-radius: 2px;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
       .emir .card .button .deactivate {
         color: #e3006e;
         border: 1px solid #e3006e; }
+        .emir .card .button .deactivate:hover {
+          color: #000;
+          background-color: red;
+          border: 1px solid red; }
       .emir .card .button .edit {
         margin: 0 32px 0 16px;
         color: #fff;
         background-color: #2a8356;
         border: 1px solid #2a8356; }
+        .emir .card .button .edit:hover {
+          background-color: blue;
+          border: 1px solid blue; }
     .emir .card .close {
       position: absolute;
       top: 32px;
