@@ -174,16 +174,26 @@
                 font: normal normal bold 16px/24px Lato;
                 padding: 8px 25px;
                 border-radius: 2px;
+                transition: .5s;
             }
             .deactivate {
                 color: #e3006e;
                 border: 1px solid #e3006e;
+                &:hover {
+                    color: #000;
+                    background-color: red;
+                    border: 1px solid red;
+                }
             }
             .edit {
                 margin: 0 32px 0 16px;
                 color: #fff;
                 background-color: #2a8356;
                 border: 1px solid #2a8356;
+                &:hover {
+                    background-color: blue;
+                    border: 1px solid blue;
+                }
             }
         }
         .close {
